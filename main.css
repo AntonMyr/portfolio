@@ -12,16 +12,7 @@
 /*-----------------------------------------------
 *  Base
 -----------------------------------------------*/
-@font-face {
-  font-family: Oswald; src: url('Oswald/Oswald-Regular.ttf');,
-  font-family: Oswald; font-weight: bold; src: url('Oswald/Oswald-Bold.ttf');,
-  font-family: Oswald; font-weight: lighter; src: url('Oswald/Oswald-Light.ttf');
-}
-@font-face {
-  font-family: Lato; src: url('Lato/Lato-Regular.ttf');,
-  font-family: Lato; font-weight: bold; src: url('Lato/Lato-Bold.ttf');,
-  font-family: Lato; font-weight: lighter; src: url('Lato/Lato-Light.ttf');
-}
+
 
 body {
   font-family: 'Lato', sans-serif;
@@ -105,10 +96,16 @@ a {
       line-height: 1.5;
     }
 
+
+
     .contact-info a {
       font-weight: bold;
       color: #fff;
       text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
     }
 
 /*-----------------------------------------------
@@ -139,6 +136,7 @@ a {
 
   text-decoration: none;
 }
+
 
 .projects-link-heading {
   color: #E9967A;
